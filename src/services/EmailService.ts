@@ -20,3 +20,5 @@ export class EmailService {
     }
   }
 }
+
+// FIRING PIPE
