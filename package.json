@@ -10,7 +10,7 @@
     "tsc": "tsc",
     "dev": "nodemon --exec ts-node src/index.ts",
     "prod": "tsc && cd build && node index.js",
-    "start": "rm -rf build && tsc && node build/index.js",
+    "start": "tsc && node build/index.js",
     "db:setup": "ts-node src/test/test-utils/setup.ts",
     "test": "npm run db:setup && jest"
   },
